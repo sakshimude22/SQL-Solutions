@@ -1,5 +1,5 @@
 -- 3611. Find Overbooked Employees
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 with process_1 as (
     select employee_id, sum(duration_hours) duration_total
     from meetings
